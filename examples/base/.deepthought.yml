@@ -1,0 +1,6 @@
+deploy_type: heroku
+heroku:
+  environments:
+    development: git@heroku.com:development.git
+    staging: git@heroku.com:staging.git
+    production: git@heroku.com:production.git
